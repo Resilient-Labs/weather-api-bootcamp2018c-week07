@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background: url(back.jpg)no-repeat center right fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10%;
+  font-family: 'Khand', sans-serif;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/***************************************
+LAYOUTTTTT
+*****************************************/
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr .6fr 2fr;
+  background-color: rgb(255, 255, 255, .3);
+  border-radius: 10px;
+  padding: 30px;
+  width: 80%;
+}
+
+form{
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+}
+
+
+input{
+  font-size: 1.2em;
+  border: none;
+  border: 1px solid rgb(3,59,116);
+  padding: 5px 10px;
+}
+
+h1{
+  margin: 20px 0 40px 0;
+  color: rgb(3,59,116);
+  font-size: 3em;
+}
+
+.result{
+  display:none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#btn{
+  background-color: rgb(139,65,1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+}
+
+#btn:hover{
+  background-color: rgb(3,59,116);
+}
+
+.degStyle{
+  font-size: 1.5em;
+  color: rgb(139,65,1);
+}
+
+#curCity{
+  color:rgb(139,65,1);
+}
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+}
