@@ -7,7 +7,7 @@ Enable your user to enter a city + country and return the temperature in Fahrenh
 
 ## How It's Made:
 
-**Tech used:** HTML5, CSS3, JavaScript, openweathermap's API
+**Tech used:** HTML5, CSS3, JavaScript, openweathermap's API. 
 Styling for this project was done using CSS Grid & Flexbox. Written in vanilla Javascript using the fetch method to access Open Weather Map's API.
 
 ## Lessons Learned:
