@@ -1,22 +1,22 @@
-# 🌦 Week07 Bootcamp2018c Project: Weather API
+# Weather API
+Enable your user to enter a city + country and return the temperature in Fahrenheit
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+**Link to project:** https://eager-villani-263b8c.netlify.com
 
-### How to submit your code for review:
+![alt tag](screen.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML5, CSS3, JavaScript, openweathermap's API
+Styling for this project was done using CSS Grid & Flexbox. Written in vanilla Javascript using the fetch method to access Open Weather Map's API.
+
+## Lessons Learned:
+Used HTML5's date input to retrieve a date from the user and then used string templating to change the date in openweathermap's API link query parameter to the date given by the user.
+
+## Examples:
+
+**OOP Calculator:** https://github.com/ericamendez/week01-alumni-project-calculator
+
+**Simple NASA API** https://github.com/ericamendez/simple-nasa-api-bootcamp2018c-week07
+
+**Daily Code Challenges:** https://github.com/Eriquette/Daily-Code-Challenges
