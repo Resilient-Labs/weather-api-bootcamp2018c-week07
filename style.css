@@ -1,0 +1,31 @@
+/* controls the display and font  */
+body{
+  background: url("http://www.cray.com/blog/wp-content/uploads/2015/09/Weather-Blog-Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courgette', cursive;
+}
+.location{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+/* inputs */
+#cities{
+  margin: 36px 0px 0px 470px
+}
+#enter{
+  float: left;
+  margin-left: 540px;
+  width: 10%;
+  margin-top: 7px;
+}
+/* inputs */
+
+/* sections */
+.answer{
+  height: 150px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
