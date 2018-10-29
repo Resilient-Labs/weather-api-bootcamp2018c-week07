@@ -1,0 +1,10 @@
+html {
+  color: black;
+  text-align: center;
+  background-image: url("../image/weather.png");
+  font-family: 'Krub', sans-serif;
+  text-decoration: none;
+}
+input {
+  color: grey;
+}
