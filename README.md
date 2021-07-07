@@ -1,22 +1,15 @@
-# 🌦 Week07 Bootcamp2018c Project: Weather API
+weather project
 
-### Goal: Enable your user to enter a city + country and return the temperature in Fahrenheit
+This application uses the openweathermap api to access the temperature at a given location.
 
-### How to submit your code for review:
+https://eloquent-agnesi-648ec6.netlify.com/
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+How It's Made:
+Tech used: HTML, CSS, es6 JS
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+I used this project to get more practice with using classes in JS. I actually enjoyed making this project but closer to the end my code design started getting messy. I think in the future I need to spend more time sudo coding and mapping out what the infrastructure of my code should look like for myself on a piece of paper.
+
+
+Lessons Learned:
+I need to brush up on constructors
+
